@@ -1,8 +1,9 @@
 .App {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: right;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
 
 .h1 {
@@ -11,11 +12,19 @@
   margin-bottom: 10px;
 }
 
+.header-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 40px;
+}
+
 .button {
   background-color: blue;
   border: none;
   color: white;
-  width: 310px;
+  width: 275px;
   height: 50px;
   border-radius: 10px;
   text-align: center;
@@ -53,7 +62,7 @@
 
 .password {
   color: blue;
-  margin-left: 180px;
+  margin-left: 140px;
 }
 
 .App-logo2 {
@@ -79,11 +88,13 @@
 }
 
 .logo5 {
-  position: relative;
+    top: 5px;
+    left: 29px;
+    z-index: 2;
 }
 
 .input2 {
-  padding: 12px 75px;
+  padding: 12px 50px;
   border-radius: 10px;
   background-color: rgb(233, 243, 255);
   border: 1px solid grey;
@@ -91,11 +102,12 @@
 }
 
 .input3 {
-  padding: 12px 75px;
+  padding: 12px 50px;
   border-radius: 10px;
   background-color: rgb(233, 243, 255);
   border: 1px solid grey;
   text-align: left;
   position: relative;
   left: -10px;
+  margin-bottom: 20px;
 }
