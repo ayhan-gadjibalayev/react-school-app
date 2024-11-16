@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #191919;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #262626;
+    padding: 40px;
+    align-items: center;
+    font-size: 20px;
+}
+
+.left-block-account {
+    width: 50%;
+}
+
+.batc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.regular-payment-block {
+    display: flex;
+    align-items: center;
+    margin: 40px;
+    justify-content: space-between;
+}
+
+.regular {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.regular-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.hr-regular {
+    border: none;
+    height: 1px;
+    margin: 40px;
+    background-color: #2A2A2A;
+}
