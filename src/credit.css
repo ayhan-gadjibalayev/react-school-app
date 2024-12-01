@@ -1,9 +1,13 @@
 body {
-    margin: 0;
-    padding: 0;
-    background-color: #191919;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+.container-credit {
     color: white;
-    font-family: Arial, sans-serif;
+    height: auto;
+    background-color: #1D1D1D;
 }
 
 .header {
@@ -16,7 +20,7 @@ body {
 }
 
 .left-block-account {
-    width: 50%;
+    width: 72%;
 }
 
 .batc {
@@ -47,4 +51,215 @@ body {
     height: 1px;
     margin: 40px;
     background-color: #2A2A2A;
+}
+
+.select-left-block {
+    padding: 20px;
+    width: 260px;
+    height: 130px;
+    margin-left: 40px;
+    border-radius: 20px;
+    background-color: #282828;
+    border: solid 3px transparent;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.select-left-block:hover {
+    border: solid 3px #3C3C3C;
+}
+
+.fox {
+    width: 30px;
+    background-color: #333333;
+    border-radius: 50%;
+    height: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+.select-block {
+    display: flex;
+}
+
+.btc-icon {
+    padding: 15px;
+    border-radius: 20px;
+    margin-left: 10px;
+    color: #1D1D1D;
+    font-weight: 400;
+    background-color: aliceblue;
+}
+
+.select-currency-block {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    flex-direction: column;
+}
+
+.bitcoin-block {
+    display: flex;
+    margin: 10px 40px;
+}
+
+.currency {
+    width: 35vh;
+    text-align: right;
+    font-size: 25px;
+}
+
+.eth {
+    width: 32vh;
+}
+
+.right-block-account {
+    background-color: #272727;
+    width: 30%;
+    height: auto;
+    margin-top: 40px;
+    margin-left: 60px;
+    margin-right: 20px;
+    border-radius: 30px;
+}
+
+.container-www {
+    display: flex;
+}
+
+.regular-payment-right-block {
+    font-size: 25px;
+    margin-left: 25px;
+}
+
+.type-block {
+     display: flex;
+     justify-content: space-between;
+     margin-left: 25px;
+     margin-right: 25px;
+     margin-top: 40px;
+}
+
+.type-grey {
+    color: #5E5E5E;
+}
+
+.wallet-number-input {
+    width: 80%;
+    margin: 25px;
+    height: 40px;
+    background-color: #272727;
+    border-radius: 20px;
+    border: 2px solid #303030;
+    padding: 5px 20px;
+    position: relative;
+    color: #a4a4a4;
+}
+
+.walet-number {
+    position: absolute;
+    margin-left: 40px;
+    background-color: #272727;
+    margin-top: 15px;
+    padding: 0px 10px;
+    color: #5E5E5E;
+    z-index: 2;
+}
+
+.Total-block {
+    margin:50px 25px 0px 25px;
+    width: 80%;
+    height: 20vh;
+    display: flex;
+    padding: 20px;
+    border-radius: 20px;
+    border: 3px solid #383637;
+}
+
+.total-edit-block {
+    width: 100%;
+}
+
+.total-edit {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btc-total {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 50px;
+    height: 90%;
+}
+
+.right-arrow {
+    display: flex;
+    width: 60px;
+    height: 60px;
+    background-color: #F2F2F2;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: black;
+}
+
+.button-payment {
+    cursor: pointer;
+    display: flex;
+    background-color: #FFFFFF;
+    width: 90%;
+    height: 60px;
+    border-radius: 30px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 25px 0px 25px;
+}
+
+.mike-payment {
+    color: black;
+    margin-right: 30px;
+}
+
+.select-center-block {
+    margin-left: 10px;
+}
+
+.back-drop {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    position: fixed;
+    background-color: rgb(0, 0, 0, 0.5);
+}
+
+.pivont-point {
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.square {
+    animation: 1.5s linear infinite rotate
+  }
+
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+  
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+.spinner {
+    width: 60px;
+    height: 60px;
 }
